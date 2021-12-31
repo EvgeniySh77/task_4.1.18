@@ -25,12 +25,19 @@ namespace task_4._1._18
 
 					Console.WriteLine("Your color is green!");
 					break;
-
-				default:
+				
+				case "cyan":
 					Console.BackgroundColor = ConsoleColor.Cyan;
 					Console.ForegroundColor = ConsoleColor.Black;
 
 					Console.WriteLine("Your color is cyan!");
+					break;
+
+				default:
+					Console.BackgroundColor = ConsoleColor.Yellow;
+					Console.ForegroundColor = ConsoleColor.Red;
+
+					Console.WriteLine("Your color is Yellow!");
 					break;
 			}
 
